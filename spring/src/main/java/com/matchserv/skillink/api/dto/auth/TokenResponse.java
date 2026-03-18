@@ -1,0 +1,3 @@
+package com.matchserv.skillink.api.dto.auth;
+
+public record TokenResponse(String accessToken, String refreshToken, String tokenType, long expiresInSeconds) {}
